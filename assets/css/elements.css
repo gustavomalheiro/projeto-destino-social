@@ -6,7 +6,6 @@
 
 html {
     font-size: 62.5%;
-    /* para utilizar rem como medida (1 rem equivale a 10px) */
     scroll-behavior: smooth;
 }
 
@@ -28,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 6rem;
-    text-transform: uppercase; /* transforma em uppercase as fontes */
+    text-transform: uppercase; 
 }
 
 h2 {
@@ -62,7 +61,15 @@ p {
     margin-bottom: 3rem;
 }
 
+.responsive-table {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+
 table {
+    min-width: 360px;
     width: 100%;
     border-collapse: collapse;
 }
@@ -70,9 +77,11 @@ table {
 table caption {
     font-style: italic;
     font-size: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 table td, table th {
+    white-space: nowrap;
     text-align: left;
     padding: 1rem;
     border: 0.1rem solid var(--light-grey-color);
