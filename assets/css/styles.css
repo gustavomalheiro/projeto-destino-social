@@ -2,6 +2,7 @@
     --primary-color: #0A1128;
     --secondary-color: crimson;
     --white-color: #FFFFFF;
+    --red-color: #AA0000;
     --light-grey-color: #EEEEEE;
     --gap: 3rem;
 }
@@ -25,8 +26,8 @@
 
 .red-bg {
     /* configuração do background de outra secao */
-    background: var(--white-color);
-    color: var(--primary-color);
+    background: var(--red-color);
+    color: var(--white-color);
 } 
 
 .main-content {
@@ -269,7 +270,7 @@ body .full-width {
 }
 
 .scs {
-    color: var(--secondary-color);
+    color: var(--red-color);
 }
 
 .footer p {
@@ -279,6 +280,10 @@ body .full-width {
 
 .close-menu {
     display: none;
+}
+
+.info {
+    font-style: italic;
 }
 
 .back-to-top {
